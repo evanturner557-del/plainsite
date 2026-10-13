@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; form-action 'self' mailto:; base-uri 'self'; frame-ancestors 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Plainsite — websites for UK sole traders, live in a week</title>
   <meta name="description" content="A fast, professional website for UK sole traders in seven days. Fixed price from £349, one revision round, no WordPress to maintain.">
   <meta name="theme-color" content="#0F3D3E">
@@ -11,16 +13,18 @@
   <meta property="og:description" content="A fast, professional website for UK sole traders in seven days. Fixed price from £349, one revision round, no WordPress to maintain.">
   <meta property="og:image" content="https://evanturner557-del.github.io/plainsite/assets/og.png">
   <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://evanturner557-del.github.io/plainsite/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="_shared/fonts/source-serif-4-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="_shared/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="_shared/kit.css">
+  <link rel="stylesheet" href="assets/site.css">
   <script src="assets/config.js"></script>
   <script src="assets/analytics.js" defer></script>
   <script src="_shared/kit.js" defer></script>
 </head>
 <body>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<svg width="0" height="0" aria-hidden="true" focusable="false" class="x-s5">
   <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   <symbol id="i-x" viewBox="0 0 24 24"><path d="M7 7l10 10M17 7 7 17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
   <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z" fill="currentColor"/></symbol>
@@ -37,7 +41,6 @@
   <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
 </svg>
 <a class="skip-link" href="#main">Skip to content</a>
-<div class="paused-banner" role="status">Plainsite is paused for now. Nothing is on sale and no payments are taken.</div>
 <div class="announce" role="region" aria-label="Site notice"><div class="container"><span class="dot" aria-hidden="true"></span><span><strong>Launching soon.</strong> We’re preparing our first release — nothing is on sale yet and no payments are taken.</span></div></div>
 <header class="site-header">
   <div class="container">
@@ -61,7 +64,7 @@
         </div>
         <ul class="assurances"><li><svg aria-hidden="true"><use href="#i-check"/></svg>Fixed price, no surprises</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>One revision round included</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>You own everything</li></ul>
       </div>
-      <figure class="mock" style="margin:0" aria-label="Illustrative example of a finished website">
+      <figure class="mock x-s6" aria-label="Illustrative example of a finished website">
         <div class="browser"><div class="browser__bar"><i></i><i></i><i></i><span class="browser__url">yourbusiness.co.uk</span></div>
           <div class="browser__body"><div class="browser__nav"><b>Harper Electrical</b><span>Services · Areas · Contact</span></div>
             <p class="browser__h">Reliable electricians in Sheffield</p><p class="browser__p">Rewires, consumer units and EV chargers across South Yorkshire.</p><span class="browser__cta">Get a quote</span>
@@ -81,7 +84,7 @@
     <div class="container">
       <div class="section-head"><span class="eyebrow">How it works</span><h2>Seven days, three steps.</h2><p>You spend about an hour of your time in total. We do the rest.</p></div>
       <div class="steps"><div class="step"><span class="step__n">01</span><h3>Day 1: 30-minute call</h3><p>We ask about your services, area and customers, and collect your logo, photos and reviews.</p></div><div class="step"><span class="step__n">02</span><h3>Days 2–5: we build</h3><p>We write the copy and build the site, then share a private preview link.</p></div><div class="step"><span class="step__n">03</span><h3>Days 6–7: revise and go live</h3><p>One round of changes, then we help you connect your domain and hand everything over.</p></div></div>
-      <div class="grid grid--3" style="margin-top:1.25rem"><div class="card"><div class="icon"><svg aria-hidden="true"><use href="#i-pulse"/></svg></div><h3>Fast on phones</h3><p>Hand-built HTML and CSS. No page builders, no plugins, no bloat.</p></div><div class="card"><div class="icon"><svg aria-hidden="true"><use href="#i-check"/></svg></div><h3>Written for you</h3><p>Clear copy about what you do and where — in plain English.</p></div><div class="card"><div class="icon"><svg aria-hidden="true"><use href="#i-shield"/></svg></div><h3>Yours to keep</h3><p>You own the files and the domain. Host it anywhere, including free static hosts.</p></div></div>
+      <div class="grid grid--3 x-s7"><div class="card"><div class="icon"><svg aria-hidden="true"><use href="#i-pulse"/></svg></div><h3>Fast on phones</h3><p>Hand-built HTML and CSS. No page builders, no plugins, no bloat.</p></div><div class="card"><div class="icon"><svg aria-hidden="true"><use href="#i-check"/></svg></div><h3>Written for you</h3><p>Clear copy about what you do and where — in plain English.</p></div><div class="card"><div class="icon"><svg aria-hidden="true"><use href="#i-shield"/></svg></div><h3>Yours to keep</h3><p>You own the files and the domain. Host it anywhere, including free static hosts.</p></div></div>
     </div>
   </section>
   <section class="section section--tint" id="pricing">
@@ -91,7 +94,7 @@
           <p class="price"><b>£349</b><span>one-off</span></p><ul class="checks"><li><svg aria-hidden="true"><use href="#i-check"/></svg>Services, area, reviews, contact</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>Mobile-first design</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>One revision round</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>Launch help</li></ul><div class="cta-wrap"><a class="btn btn--primary btn--block" href="#contact" data-cta="enquire" data-plan="one-page">Request a slot</a><p class="sub">No payment taken yet — we’ll confirm details by email.</p></div></article><article class="tier"><h3>Five-page site</h3><p class="tier__for">Room for separate service pages and an about page.</p>
           <p class="price"><b>£599</b><span>one-off</span></p><ul class="checks"><li><svg aria-hidden="true"><use href="#i-check"/></svg>Up to five pages</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>Basic on-page SEO</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>One revision round</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>Launch help</li></ul><div class="cta-wrap"><a class="btn btn--ghost btn--block" href="#contact" data-cta="enquire" data-plan="five-page">Ask about five pages</a></div></article><article class="tier"><h3>Care plan</h3><p class="tier__for">Small edits and checks after launch.</p>
           <p class="price"><b>£19</b><span>/ month</span></p><ul class="checks"><li><svg aria-hidden="true"><use href="#i-check"/></svg>Up to 30 minutes of edits a month</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>Quarterly link and speed check</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>Cancel any time</li></ul><div class="cta-wrap"><a class="btn btn--ghost btn--block" href="#contact" data-cta="enquire" data-plan="care">Ask about care</a></div></article></div>
-      <div class="guarantee"><div class="icon"><svg aria-hidden="true"><use href="#i-refund"/></svg></div><p><strong>Deposit and refunds.</strong> A deposit books your week (the amount will be shown here before booking opens). Refund terms will be confirmed before you pay. If we miss your week, your deposit comes back in full.</p><a class="btn btn--ghost btn--sm" href="terms.html#refunds">Refund terms</a></div>
+      <div class="guarantee"><div class="icon"><svg aria-hidden="true"><use href="#i-refund"/></svg></div><p><strong>Deposit and refunds.</strong> A deposit books your week. Refund terms will be confirmed before you pay. If we miss your week, your deposit comes back in full.</p><a class="btn btn--ghost btn--sm" href="terms.html#refunds">Refund terms</a></div>
       <p class="fineprint">Not included: logo design, photography, online shops, or promises about Google rankings.</p>
     </div>
   </section>
@@ -105,8 +108,8 @@
     <div class="container contact-grid">
       <div>
         <span class="eyebrow">Contact</span>
-        <h2 style="font-size:clamp(1.75rem,3.6vw,2.5rem)">Request a build slot</h2>
-        <p style="color:var(--muted);margin-top:.9rem">Tell us about your business and we&#x27;ll confirm availability.</p>
+        <h2 class="x-s8">Request a build slot</h2>
+        <p class="x-s9">Tell us about your business and we&#x27;ll confirm availability.</p>
         <ul class="contact-points"><li><span class="icon" aria-hidden="true"><svg><use href="#i-mail"/></svg></span><span><b>Email</b><a href="mailto:plainsite@agentmail.to">plainsite@agentmail.to</a></span></li>
           <li><span class="icon" aria-hidden="true"><svg><use href="#i-shield"/></svg></span><span><b>Your data</b>Used only to answer you. See our <a href="privacy.html">privacy notice</a>.</span></li></ul>
       </div>
@@ -134,7 +137,7 @@
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
-      <div><a class="brand" href="./"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0F3D3E"/><text x="30" y="45" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-weight="700" font-size="38" fill="#F7F5F2">P</text><circle cx="49" cy="42" r="5.5" fill="#2A9D8F"/></svg>Plainsite</a><p style="margin-top:.75rem;max-width:22rem">Fast, professional static websites for UK sole traders, live in a week at a fixed price.</p></div>
+      <div><a class="brand" href="./"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0F3D3E"/><text x="30" y="45" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-weight="700" font-size="38" fill="#F7F5F2">P</text><circle cx="49" cy="42" r="5.5" fill="#2A9D8F"/></svg>Plainsite</a><p class="x-s10">Fast, professional static websites for UK sole traders, live in a week at a fixed price.</p></div>
       <div><h2>Product</h2><ul><li><a href="#how">How it works</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#faq">FAQ</a></li></ul></div>
       <div><h2>Company</h2><ul><li><a href="#contact">Contact</a></li><li><a href="privacy.html">Privacy notice</a></li><li><a href="terms.html">Terms</a></li></ul></div>
     </div>
