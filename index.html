@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; form-action 'self' mailto:; base-uri 'self'; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self' https://formsubmit.co; form-action 'self'; base-uri 'self'; object-src 'none'">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Plainsite — websites for UK sole traders, live in a week</title>
   <meta name="description" content="A fast, professional website for UK sole traders in seven days. Fixed price from £349, one revision round, no WordPress to maintain.">
@@ -12,6 +12,7 @@
   <meta property="og:title" content="Plainsite — websites for UK sole traders, live in a week">
   <meta property="og:description" content="A fast, professional website for UK sole traders in seven days. Fixed price from £349, one revision round, no WordPress to maintain.">
   <meta property="og:image" content="https://evanturner557-del.github.io/plainsite/assets/og.png">
+  <meta property="og:url" content="https://evanturner557-del.github.io/plainsite/">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://evanturner557-del.github.io/plainsite/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -94,7 +95,7 @@
           <p class="price"><b>£349</b><span>one-off</span></p><ul class="checks"><li><svg aria-hidden="true"><use href="#i-check"/></svg>Services, area, reviews, contact</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>Mobile-first design</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>One revision round</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>Launch help</li></ul><div class="cta-wrap"><a class="btn btn--primary btn--block" href="#contact" data-cta="enquire" data-plan="one-page">Request a slot</a><p class="sub">No payment taken yet — we’ll confirm details by email.</p></div></article><article class="tier"><h3>Five-page site</h3><p class="tier__for">Room for separate service pages and an about page.</p>
           <p class="price"><b>£599</b><span>one-off</span></p><ul class="checks"><li><svg aria-hidden="true"><use href="#i-check"/></svg>Up to five pages</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>Basic on-page SEO</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>One revision round</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>Launch help</li></ul><div class="cta-wrap"><a class="btn btn--ghost btn--block" href="#contact" data-cta="enquire" data-plan="five-page">Ask about five pages</a></div></article><article class="tier"><h3>Care plan</h3><p class="tier__for">Small edits and checks after launch.</p>
           <p class="price"><b>£19</b><span>/ month</span></p><ul class="checks"><li><svg aria-hidden="true"><use href="#i-check"/></svg>Up to 30 minutes of edits a month</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>Quarterly link and speed check</li><li><svg aria-hidden="true"><use href="#i-check"/></svg>Cancel any time</li></ul><div class="cta-wrap"><a class="btn btn--ghost btn--block" href="#contact" data-cta="enquire" data-plan="care">Ask about care</a></div></article></div>
-      <div class="guarantee"><div class="icon"><svg aria-hidden="true"><use href="#i-refund"/></svg></div><p><strong>Deposit and refunds.</strong> A deposit books your week. Refund terms will be confirmed before you pay. If we miss your week, your deposit comes back in full.</p><a class="btn btn--ghost btn--sm" href="terms.html#refunds">Refund terms</a></div>
+      <div class="guarantee"><div class="icon"><svg aria-hidden="true"><use href="#i-refund"/></svg></div><p><strong>Deposit and refunds.</strong> A deposit books your week. If we don’t deliver your preview within the agreed week for reasons within our control, you can cancel and we will refund your deposit in full. If you buy as a consumer, you can also cancel within 14 days of booking (see <a href="terms.html#refunds">our terms</a>).</p><a class="btn btn--ghost btn--sm" href="terms.html#refunds">Refund terms</a></div>
       <p class="fineprint">Not included: logo design, photography, online shops, or promises about Google rankings.</p>
     </div>
   </section>
@@ -111,9 +112,9 @@
         <h2 class="x-s8">Request a build slot</h2>
         <p class="x-s9">Tell us about your business and we&#x27;ll confirm availability.</p>
         <ul class="contact-points"><li><span class="icon" aria-hidden="true"><svg><use href="#i-mail"/></svg></span><span><b>Email</b><a href="mailto:plainsite@agentmail.to">plainsite@agentmail.to</a></span></li>
-          <li><span class="icon" aria-hidden="true"><svg><use href="#i-shield"/></svg></span><span><b>Your data</b>Used only to answer you. See our <a href="privacy.html">privacy notice</a>.</span></li></ul>
+          <li><span class="icon" aria-hidden="true"><svg><use href="#i-shield"/></svg></span><span><b>Your data</b>Used only to deal with your enquiry. See our <a href="privacy.html">privacy notice</a>.</span></li></ul>
       </div>
-      <form class="form" data-contact data-email="plainsite@agentmail.to" data-subject="Plainsite enquiry" novalidate>
+      <form class="form" data-contact data-formsubmit="6d1ff76d60a6dda9078d991015ddaa89" data-email="plainsite@agentmail.to" data-subject="Plainsite enquiry" novalidate>
         <div class="row-2">
           <div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
           <div class="field"><label for="f-business">Business name</label><input id="f-business" name="business" autocomplete="organization" required></div>
@@ -123,14 +124,14 @@
           <div class="field"><label for="f-plan">Interested in</label><select id="f-plan" name="plan"><option value="">Not sure yet</option><option value="one-page">One-page site (£349)</option><option value="five-page">Five-page site (£599)</option><option value="care">Care plan (£19)</option></select></div>
         </div>
         <div class="field"><label for="f-message">Anything else?</label><textarea id="f-message" name="message"></textarea></div>
-        <p class="hint">Submitting opens your own email app with the message ready — nothing is sent until you press Send.</p>
-        <button class="btn btn--primary" type="submit">Write my email</button>
+        <p class="hint">Your message is sent to our inbox via FormSubmit (formsubmit.co), our form-delivery provider. If that fails, your own email app opens instead.</p>
+        <button class="btn btn--primary" type="submit">Send message</button>
         <p class="form-status" role="status" aria-live="polite"></p>
       </form>
     </div>
   </section>
   <section class="section section--ink">
-    <div class="container final-cta"><h2>Get found. Look professional. Live in a week.</h2><p>One-page site from £349, fixed price. Refund terms will be confirmed before you pay.</p>
+    <div class="container final-cta"><h2>Get found. Look professional. Live in a week.</h2><p>One-page site from £349, fixed price. Deposit refunded in full if we miss your preview week for reasons within our control — see <a href="terms.html#refunds">our terms</a>.</p>
       <div class="btn-row"><a class="btn btn--light" href="#pricing" data-cta="final">See prices</a><a class="btn btn--outline-light" href="#contact" data-cta="final-contact">Ask a question</a></div></div>
   </section>
 </main>
