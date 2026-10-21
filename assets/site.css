@@ -8,3 +8,5 @@
 .x-s8{font-size:clamp(1.75rem,3.6vw,2.5rem) !important}
 .x-s9{color:var(--muted) !important;margin-top:.9rem !important}
 .x-s10{margin-top:.75rem !important;max-width:22rem !important}
+
+.demo-banner{position:sticky;top:0;z-index:50;background:var(--ink);color:#fff;text-align:center;font-weight:600;font-size:.9375rem;padding:.6rem 1rem}
